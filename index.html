@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <title>Cursos Online</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="user">
+
+            <div class="log">
+                <a class="login" href="#">
+                    Login 
+                    <img src="./main/iniciar-sesion.png" alt="" width="30px">
+                </a>
+                <a class="perfil" href="#">Perfil <img src="./main/voluntario.png" alt="" width="25px"></a>
+                <img src="#" alt="">
+
+
+            </div>
+
+
+            <div class="navegacion">
+                <a href="./index.html">Inicio</a>
+                <a href="" style="color: rgb(0, 255, 38);" >Cursos</a>
+                <a href="#">Ayuda</a>
+                <a href="#">Contactanos</a>
+                <div class="hamburguesa" onclick="toggleMenu()">
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                </div>
+            </div>
+            <div class="menu-responsive">
+                <a href="./index.html" style="color: rgb(0, 255, 38);" >Inicio</a>
+                <a href="" >Cursos</a>
+                <a href="#">Ayuda</a>
+                <a href="#">Contactanos</a>
+            </div>
+
+            <div class="logo">
+                <img src="#" alt="">
+                <p class="titulo">Cursos Online</p>
+            </div>
+        </div>
+    </nav>
+
+        <div class="head">
+            <div class="columna">
+                
+            </div>
+            <div class="info">
+                <h1 class="h1">Haz Crecer Tu <br>Conocimiento</h1>
+                <h2 class="subtitu"><span style="color: rgb(11, 131, 11);">Educacion</span><span style="color:rgb(171, 236, 171);">Online</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsam molestiae fuga aliquid 
+                temporibus maiores, eligendi eveniet ipsa saepe similique tempora,</p>
+            </div>
+            
+            <div class="bg-girl">
+                <div class="bg-white1">
+                    <img src="./main/calendario.png" alt="" width="50px">
+                    <p style="margin-left: 10px;">250k <br>
+                    Estudiantes Asisten</p>
+                </div>
+
+                <div class="bg-white2">
+                    <img src="./main/email.png" alt="" width="40px" height="50px">
+                    <p style="margin-left: 10px">Felicitaciones <br>
+                    Tu admision a sido completado</p>
+                </div>
+
+                <div class="bg-white3">
+                    <div class="ux">
+                        <img src="./main/curso.png" alt="" width="60px" >
+                        <p>Clase: Experiencia de usuario <br>
+                            Hoy a las 12:00 PM</p>
+                    </div>
+                    <a href="#">Entrar ahora!</a>
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="arribal">
+            <div class="circle"></div>
+            <div class="guy">
+                <img src="./main/kid.png" alt="">
+            </div>
+            <div class="info2">
+                <h2>Llega a  <span class="arribalimg">
+                    <img class="bandera" src="./main/Arrival-Flag.png" alt="">
+                </span> a meta que te prometiste <br> No esperes mas
+                </h2>
+                <h3>Nunca es tarde para empezar</h3>
+                <p>Tenemos cursos Gratis por este mes.</p>
+                <img class="boks" src="./main/Books.png" alt="">
+                <button class="card-int__button solo-869px">Ver cursos</button>
+            </div>
+        </div>
+
+        <div class="info-courses">
+            <img src="./main/boy.png" alt="" width="600px">
+            <p>Aqui encontraras una amplia seleccion de cursos <br> diseñados para potenciar tus habilidades y <br> 
+            conocimientos en diversos campos.</p>
+        </div>
+
+        <div class="carousel-container">
+            <div class="title-cards">
+                <h2>Especialidades</h2>
+                <button class="btn boton"> Ver mas 
+                </button>
+            </div>
+            <div class="carousel">
+
+                <div class="card">
+                    <div class="card__corner"></div>
+                    <div class="card__img"><img src="./main/fundamentos.jpg" alt=""  height="150px"></div>
+                    <div class="card-int">
+                        <p class="card-int__title">Como Crear tus Primeros Proyectos Web
+                        </p>
+                        <p class="excerpt">Crea tu primera página web con HTML y CSS, así como tu primer blog y 
+                            primera tienda online usando WordPress.
+                        </p>
+                        <button class="card-int__button">Mostrar</button>
+                    </div>
+                </div>
+
+                <div class="card responsive">
+                    <div class="card__corner"></div>
+                    <div class="card__img"><img src="./main/fundamentos.jpg" alt=""  height="175px"></div>
+                    <div class="card-int">
+                        <p class="card-int__title">Fundamentos de Programacion y Desarrollo Web
+                        </p>
+                        <p class="excerpt">Crea aplicaciones basadas en inteligencia artificial. Conozca las herramientas, los productos y 
+                            los servicios para crear soluciones.
+                        </p>
+                        <button class="card-int__button">Mostrar</button>
+                    </div>
+                </div>
+
+                <div class="card responsive">
+                    <div class="card__corner"></div>
+                    <div class="card__img"><img src="./main/fundamentos.jpg" alt=""  height="175px"></div>
+                    <div class="card-int">
+                        <p class="card-int__title">Inteligencia Aritificial para Developers
+                        </p>
+                        <p class="excerpt">Crea aplicaciones basadas en inteligencia artificial. Conozca las herramientas, 
+                            los productos y los servicios para crear soluciones.
+                        </p>
+                        <button class="card-int__button">Mostrar</button>
+                    </div>
+                </div>
+
+                <div class="card responsive">
+                    <div class="card__corner"></div>
+                    <div class="card__img"><img src="./main/fundamentos.jpg" alt=""  height="175px"></div>
+                    <div class="card-int">
+                        <p class="card-int__title">HTML y CSS a Profundidad
+                        </p>
+                        <p class="excerpt">Aprende a hacer páginas eficientes, maquetación con HTML, estilos con CSS más complejos y 
+                            con animaciones.
+                        </p>
+                        <button class="card-int__button">Mostrar</button>
+                    </div>
+                </div>
+
+                <div class="card responsive">
+                    <div class="card__corner"></div>
+                    <div class="card__img"><img src="./main/fundamentos.jpg" alt=""  height="175px"></div>
+                    <div class="card-int">
+                        <p class="card-int__title">Como Crear tus Primeros Proyectos Web
+                        </p>
+                        <p class="excerpt">Crea tu primera página web con HTML y CSS, <br> así como tu primer blog y 
+                            primera tienda online usando WordPress.
+                        </p>
+                        <button class="card-int__button">Mostrar</button>
+                    </div>
+                </div>
+
+                <div class="card responsive">
+                    <div class="card__corner"></div>
+                    <div class="card__img"><img src="./main/fundamentos.jpg" alt=""  height="175px"></div>
+                    <div class="card-int">
+                        <p class="card-int__title">Fundamentos de Programacion y Desarrollo Web
+                        </p>
+                        <p class="excerpt">Crea aplicaciones basadas en inteligencia artificial. Conozca las herramientas, los productos y 
+                            los servicios para crear soluciones.
+                        </p>
+                        <button class="card-int__button">Mostrar</button>
+                    </div>
+                </div>
+
+                <div class="card responsive">
+                    <div class="card__corner"></div>
+                    <div class="card__img"><img src="./main/fundamentos.jpg" alt=""  height="175px"></div>
+                    <div class="card-int">
+                        <p class="card-int__title">Inteligencia Aritificial para Developers
+                        </p>
+                        <p class="excerpt">Crea aplicaciones basadas en inteligencia artificial. Conozca las herramientas, 
+                            los productos y los servicios para crear soluciones.
+                        </p>
+                        <button class="card-int__button">Mostrar</button>
+                    </div>
+                </div>
+
+                <div class="card responsive">
+                    <div class="card__corner"></div>
+                    <div class="card__img"><img src="./main/fundamentos.jpg" alt=""  height="175px"></div>
+                    <div class="card-int">
+                        <p class="card-int__title">HTML y CSS a Profundidad
+                        </p>
+                        <p class="excerpt">Aprende a hacer páginas eficientes, maquetación con HTML, estilos con CSS más complejos y 
+                            con animaciones.
+                        </p>
+                        <button class="card-int__button">Mostrar</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        
+    </main>
+
+    <article>
+
+        <div class="red">
+            <div class="info-redes">
+                <h2><img class="q1" src="./main/Question-Mark2.png" alt="">Quienes somos<img class="q2" src="./main/Question-Mark.png" alt=""></h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et libero suscipit at iusto 
+                    perspiciatis,quia consectetur ex, nulla blanditiis sit quam quas eius praesentium <br>
+                    distinctio minima expedita? Necessitatibus, soluta unde.</p>
+            </div>
+    
+
+            
+            <div class="redes">
+                <div class="rds-sociales">
+                    <h2 style="color:rgb(191, 71, 71);">Redes sociales</h2>
+                </div>
+                <div class="box-redes">
+                    <a href="#"><img src="./main/tiktok-icon 1.png" width="25px" alt="">TikTok</a>
+                    <a href="#"><img src="./main/facebook.png" width="25px" alt="">Facebook</a>
+                </div>
+    
+                <div class="box-redes">
+                    <a href="#"><img src="./main/WhatsApp.png" width="25px" alt="">Whattsap</a>
+                    <a href="#"><img src="./main/instagram.png" width="25px" alt="">Instagram</a>
+                </div>
+            </div>
+    
+            <div class="circle2"></div>
+            <div class="img-redes">
+                <img src="./main/somos.png" alt="">
+            </div>
+        </div>
+        
+    <div class="teachers">
+                <h2>"Expertos apasionados al servicio de tu aprendizaje"</h2>
+        <div class="info-teachers">
+                <div class="tc">
+                    <img src="./main/profesor.png" alt="">
+                    <h4>Carlos Martínez</h4>
+                    <p>Desarrollador de software
+                    </p>
+                </div>
+
+                <div class="tc">
+                    <img src="./main/profe2.png" alt="">
+                    <h4>Juan González</h4>
+                    <p>Ingeniero de software
+                    </p>
+                </div>
+
+                <div class="tc">
+                    <img src="./main/profe3.png" alt="">
+                    <h4>Juan González</h4>
+                    <p>Arquitecto de software
+                    </p>
+                </div>
+
+                <div class="tc">
+                    <img src="./main/profe4.png" alt="">
+                    <h4>Javier Rodríguez
+                    </h4>
+                    <p>Analista de sistemas
+                    </p>
+                </div>
+
+                <div class="tc">
+                    <img src="./main/profe5.png" alt="" >
+                    <h4>José García
+                    </h4>
+                    <p>Ingeniero de pruebas <br> (tester)
+                    </p>
+                </div>
+        </div>
+
+        <div class="info-teachers">
+            <div class="tc">
+                <img src="./main/profe6.png" alt="">
+                <h4>Antonio Pérez
+                </h4>
+                <p>Administrador de bases de <br>datos
+                </p>
+            </div>
+
+            <div class="tc">
+                <img src="./main/profe7.png" alt="">
+                <h4>Alberto Sánchez
+                </h4>
+                <p>Ingeniero de DevOps
+                </p>
+            </div>
+
+            <div class="tc">
+                <img src="./main/profe8.png" alt="">
+                <h4>Raúl Fernández
+                </h4>
+                <p>Científico de datos
+                </p>
+            </div>
+
+            <div class="tc">
+                <img src="./main/profe9.png" alt="">
+                <h4>Manuel Torres
+                </h4>
+                <p>Creativo director</p>
+            </div>
+
+            <div class="tc">
+                <img src="./main/profe10.png" alt="">
+                <h4>Luis Ramírez
+                </h4>
+                <p>Creativo director</p>
+            </div>
+    </div>
+    </div>
+    </article>
+
+    <footer>
+        <div class="title">
+            <img src="./main/footer.png" width="40px" alt="">
+            <h3>Cursos <br> en <br> Linea</h3>
+            <div class="raya"></div>
+            <p>Por la <br>plataforma</p>
+        </div>
+        <div class="subscribe">
+            <p>Suscribete para promociones</p>
+        </div>
+
+        <form method="post">
+            <input placeholder="Tu email" type="text" name="text" 
+            class="input" required>            
+            <button class="btn"> Suscribete
+            </button>        
+        </form>
+
+        <div class="terms">
+            <a href="#">Carreras</a>
+            <div class="raya"></div>
+            <a href="#">Politica de <br>Seguridad</a>
+            <div class="raya"></div>
+            <a href="#">Terms Y <br>condiciones</a>
+        </div>
+        <div class="end" style="color: gray;">
+            <p>(c) 2023 Clases de tecnologia</p>
+        </div>
+    </footer>
+
+    <script src="./menu-burger.js"></script>
+    <script src="carrusel.js"></script>
+    
+</body>
+</html>

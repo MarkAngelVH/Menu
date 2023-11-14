@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav style="margin-top: 10px;">
+        <div class="user">
+
+            <div class="log">
+                <a class="login" href="#">
+                    Login 
+                    <img src="./main/iniciar-sesion.png" alt="" width="30px">
+                </a>
+                <a class="perfil" href="#">Perfil <img src="./main/voluntario.png" alt="" width="25px"></a>
+                <img src="#" alt="">
+
+
+            </div>
+
+
+            <div class="navegacion">
+                <a href="./index.html">Inicio</a>
+                <a href="" style="color: rgb(0, 255, 38);" >Cursos</a>
+                <a href="#">Ayuda</a>
+                <a href="#">Contactanos</a>
+                <div class="hamburguesa" onclick="toggleMenu()">
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                </div>
+            </div>
+            <div class="menu-responsive">
+                <a href="./index.html">Inicio</a>
+                <a href="" style="color: rgb(0, 255, 38);" >Cursos</a>
+                <a href="#">Ayuda</a>
+                <a href="#">Contactanos</a>
+            </div>
+
+
+            <div class="logo">
+                <img src="#" alt="">
+                <p>Cursos Online</p>
+            </div>
+        </div>
+    </nav>
+
+    
+    <main class=" desplazable-padre">
+                <div class="info-curso">
+                    <div class="video-precio">
+                        <video src="/src/assets/video/Assassin's Creed Valhalla_2023.03.12-13.55.mp4" type="video/mp4"
+                        controls width="700px"></video>
+                        <div class="info-video">
+                            <h2 class="precio">S/. 59,90 <span>S/.299,99</span></h2>
+                            <p class="descuento">80% de descuento</p>
+                            <p class="p-precio">Esta oferta termina en <span>6 dias 24 horas!</span></p>
+                            <div class="botones-precio">
+                                <button type="submit">Añadir a la cesta</button>
+                                <button type="submit">Comprar Ahora</button>
+                            </div>
+                        </div>
+                        
+                    
+                    </div>  
+                    <div class="js">
+                        <h2>Curso de Javascript: <br> desde cero a Experto</h2>
+                        <p>Aprende a programar desde cero <br> con el curso mas Completo, <br>   practico y desde cero</p>
+                        <div class="calificaciones">
+                            <p>4,8 <span>
+                                        <img src="./main/Star.png" alt="">
+                                        <img src="./main/Star.png" alt="">
+                                        <img src="./main/Star.png" alt="">
+                                        <img src="./main/Star.png" alt="">
+                                        <img src="./main/Star.png" alt="">
+                                    </span> 
+                            <span>484 calificaciones</span> 1704 estudiantes </p>
+                        </div>
+                    </div>
+                </div>
+
+        <div class="contenido">
+            <div class=" titulo-curso">
+                <h2>Contenido del Curso</h2>
+                <p>10 secciones • 30 clases • 2 h 50 m de duracion total</p>
+            </div>
+
+            <nav id="menu">
+
+                
+                <ul>
+                    <li>
+                        <button class="toggle-btn" onclick="toggleSubmenu(0)">
+                            <img src="/src/img/contenido/video.png" alt="">
+                            <span>Introduccion</span>
+                            <span class="elemento2">3 clases <span>10 min</span></span>
+                        </button>
+                        
+                        <ul class="submenu">
+                            <!-- Contenido del submenú -->
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+
+                                </span>
+                            </button>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <!-- boton 2 -->
+
+                <ul>
+                    <li>
+                        <button class="toggle-btn" onclick="toggleSubmenu(1)">
+                            <img src="/src/img/contenido/video.png" alt="">
+                            <span>Introduccion</span>
+                            <span class="elemento2">3 clases <span>10 min</span></span>
+                        </button>
+                        
+                        <ul class="submenu">
+                            <!-- Contenido del submenú -->
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+
+                                </span>
+                            </button>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <button class="toggle-btn" onclick="toggleSubmenu(2)">
+                            <img src="/src/img/contenido/video.png" alt="">
+                            <span>Introduccion</span>
+                            <span class="elemento2">3 clases <span>10 min</span></span>
+                        </button>
+                        
+                        <ul class="submenu">
+                            <!-- Contenido del submenú -->
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <button class="toggle-btn" onclick="toggleSubmenu(3)">
+                            <img src="/src/img/contenido/video.png" alt="">
+                            <span>Introduccion</span>
+                            <span class="elemento2">3 clases <span>10 min</span></span>
+                        </button>
+                        
+                        <ul class="submenu">
+                            <!-- Contenido del submenú -->
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <button class="toggle-btn" onclick="toggleSubmenu(4)">
+                            <img src="/src/img/contenido/video.png" alt="">
+                            <span>Introduccion</span>
+                            <span class="elemento2">3 clases <span>10 min</span></span>
+                        </button>
+                        
+                        <ul class="submenu">
+                            <!-- Contenido del submenú -->
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                            <button class="elemento-submenu">
+                                <span>Detalles
+                                    <img src="/src/img/contenido/video.png" alt="">
+                                </span>
+                                <span class="elemento">
+                                    <a href="#">Vista previa <span>10 min</span></a>
+                                </span>
+                            </button>
+                        </ul>
+                    </li>
+                </ul>
+                <div class=" titulo-curso">
+                    <h2>Contenido del Curso</h2>
+                    <p>10 secciones • 30 clases • 2 h 50 m de duracion total</p>
+                </div>
+
+                <aside class="descripciones" id="descripciones">
+                    <div class="mi-clase-div botones">
+                        <button class="boton-detalles" onclick="mostrarSeccion('acercaDe')">Acerca De</button>
+                        <button class="boton-detalles" onclick="mostrarSeccion('Detalles')">Detalles</button>
+                        <button class="boton-detalles" onclick="mostrarSeccion('Recursos')">Recursos</button>
+                    </div>
+            
+                <div class="descripcionesdelcurso">
+                    <div class="descripcion-de-acercaDe">
+                        <div class="requerido">
+                            <h4 style="text-decoration: underline;">Acerca de este curso</h4>
+                            <p>Requerido: <span>HTML5,CSS3</span></p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magni soluta repudiandae velit,
+                            similique ratione cumque eos reprehenderit cum placeat, blanditiis repellendus quae, optio
+                            aliquit quaerat quibusdam quidem inventore animi.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magni soluta repudiandae velit,
+                                similique ratione cumque eos reprehenderit cum placeat, blanditiis repellendus quae, optio
+                                aliquit quaerat quibusdam quidem inventore animi.</p>
+                    </div>
+            
+                    <div class="descripcion-de-Detalles">
+                        <div class="requerido">
+                            <h4>Acerca de este curso</h4>
+                            <p>Requerido: <span>HTML5,CSS3</span></p>
+                        </div>
+                        <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magni soluta repudiandae velit,
+                            similique ratione cumque eos reprehenderit cum placeat, blanditiis repellendus quae, optio
+                            aliquit quaerat quibusdam quidem inventore animi.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magni soluta repudiandae velit,
+                                similique ratione cumque eos reprehenderit cum placeat, blanditiis repellendus quae, optio
+                                aliquit quaerat quibusdam quidem inventore animi.</p>
+                    </div>
+                
+                    <div class="descripcion-de-Recursos">
+                        <div class="requerido">
+                            <h4>Acerca de este curso:</h4>
+                            <p>Requerido: <span>HTML5,CSS3</span></p>
+                        </div>
+    
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magni soluta repudiandae velit,
+                            similique ratione cumque eos reprehenderit cum placeat, blanditiis repellendus quae, optio
+                            aliquit quaerat quibusdam quidem inventore animi.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magni soluta repudiandae velit,
+                                similique ratione cumque eos reprehenderit cum placeat, blanditiis repellendus quae, optio
+                                aliquit quaerat quibusdam quidem inventore animi.</p>
+                    </div>
+                </div>
+            </aside>
+            </nav>
+        </div>
+
+        
+    </main>
+
+
+
+    <footer>
+        <div class="title">
+            <img src="./main/footer.png" width="40px" alt="">
+            <h3>Cursos <br> en <br> Linea</h3>
+            <div class="raya"></div>
+            <p>Por la <br>plataforma</p>
+        </div>
+        <div class="subscribe">
+            <p>Suscribete para promociones</p>
+        </div>
+
+        <form method="post">
+            <input placeholder="Tu email" type="text" name="text" 
+            class="input" required>            
+            <button class="btn"> Suscribete
+            </button>        
+        </form>
+
+        <div class="terms">
+            <a href="#">Carreras</a>
+            <div class="raya"></div>
+            <a href="#">Politica de <br>Seguridad</a>
+            <div class="raya"></div>
+            <a href="#">Terms Y <br>condiciones</a>
+        </div>
+        <div class="end" style="color: gray;">
+            <p>(c) 2023 Clases de tecnologia</p>
+        </div>
+    </footer>
+
+    <script src="./menu-burger.js"></script>
+    <script src="lista-despegable.js"></script>
+    <script src="./botonesInfoCurso.js"></script>
+
+</body>
+</html>
